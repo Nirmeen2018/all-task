@@ -1,0 +1,33 @@
+body{
+    margin:0;
+    padding: 0;
+}
+.parent{
+    padding: 50px;
+}
+.group1{
+  
+    display: flex;
+    flex-direction: row;
+   
+    justify-content:space-between;
+}
+.div1,.div2,.div3{
+    width: 30%;
+   
+}
+
+
+
+.group2{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.div5{
+    width: 30%;
+}
+.div6{
+    width:65%
+}
