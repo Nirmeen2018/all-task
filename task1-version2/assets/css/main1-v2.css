@@ -1,0 +1,26 @@
+.perant{
+    position: relative;
+    display: flex;
+}
+.red-squer{
+    background-color: red;
+    position: absolute;
+
+    
+}
+.blue-squer{
+    background-color: blue;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.yellow-squer{
+    background-color: yellow;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.red-squer,.blue-squer,.yellow-squer{
+    width: 100px;
+    height:100px;
+}

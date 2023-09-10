@@ -1,0 +1,32 @@
+body{
+    margin:0;
+    padding: 0;
+}
+.parent{
+    padding: 50px;
+}
+.group1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: space-between;
+}
+.div1,.div2,.div3{
+    width: 100%;
+   
+}
+
+.group2{
+   
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33% auto;
+    justify-content: space-between;
+
+}
+.div5{
+    width: 100%;
+}
+.div6{
+    width:100%
+}
