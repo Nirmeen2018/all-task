@@ -17,9 +17,10 @@
 .yellow-squer{
     background-color: yellow;
     position: absolute;
-    top: 30px;
-    left: 30px;
+    top: 15px;
+    left: 15px;
 }
+
 .red-squer,.blue-squer,.yellow-squer{
     width: 100px;
     height:100px;
