@@ -17,63 +17,69 @@
     display: grid;
     grid-template-columns: auto auto;
 }
-.header p{
+.header__pg{
     width: 100%;
     text-align: center;
     font-size: 11px;
     padding-left: 50px;
     padding-top: 10px;
 }
-.header i{
+.header__icon{
     margin: auto;
     color: rgb(101, 101, 240);
     padding-left: 50px;
     padding-top: 5px;
 }
-.img_area img{
-    
+
+.imgArea {
+    display: grid;
+    grid-template-rows: 155px 45px 65px;
+    justify-items: center;
+}
+.imgArea__image{
     width: 150px;
     height: 150px;
     border-radius: 50%;
     border: solid 10px #f7f5f5;
-  
 }
 
-.img_area h1{
+.imgArea__h1{
     font-size: 25px;
     font-weight: 500;
 }
-.img_area p{
+.imgArea__pg{
     font-size: 10px;
 }
-.img_area {
-       display: grid;
-       grid-template-rows: 155px 45px 65px;
-       justify-items: center;
-}
 
-.img_area button{
-    color: white;
-    background-color: rgb(86, 137, 231);
-    border: none;
-    border-radius: 7px;
+.imgArea__click{
     font-size: 14px;
     padding: 10px 25px;
     width: 100px;
-    box-shadow: 0px 2px #386979;
+    
 }
-.social-share{
+.imgArea--style{
+    box-shadow: 0px 2px #386979;
+    background-color: rgb(86, 137, 231);
+    color: white;
+    border: none;
+    border-radius: 7px;
+
+}
+.socialShare{
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 20px;
-    background-color: rgb(15, 15, 78);
     width: 100%;
     height: 60px;
+    
+}
+.socialShare--style{
+    background-color: rgb(15, 15, 78);
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
 }
-.row{
+.socialShare__col{
     font-size: 10px;
     width: 30%;
     border-right: solid 1px rgb(123 123 158 / 54%);
@@ -82,14 +88,16 @@
     padding-bottom: 10px;
   
 }
-.row p{
+.socialShare__price{
     color: white;
 }
-.row span ,i{
+.socialShare__contant {
     color: rgb(160, 20, 20);
 }
 
-.social-share span i{
+.socialShare__i{
     padding-right: 15px;
     padding-left: 10px;
+    color: rgb(160, 20, 20);
+
 }
