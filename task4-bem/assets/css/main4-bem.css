@@ -1,0 +1,20 @@
+body{
+    margin:0;
+    padding: 0;
+}
+.parent{
+    padding:50px;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.section__div1,.section__div2,.section__div3,.section__div5{
+    width: 30%;
+   
+}
+
+.section__div6{
+    width:65%
+}

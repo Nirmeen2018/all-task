@@ -1,0 +1,26 @@
+/*block*/
+.squers{
+    position: relative;
+    display: flex;
+}
+/*element*/
+.squers__squer{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 100px;
+    height:100px;
+}
+/*modifiers*/
+.squers--red{
+    background-color: red;
+ 
+}
+.squers--blue{
+    background-color: blue;
+   
+}
+.squers--yellow{
+    background-color: yellow;
+}
+
